@@ -2,6 +2,8 @@
 
 > An interactive educational platform and starter boilerplate for mastering the **PERN stack**: **PostgreSQL**, **Express.js**, **React**, and **Node.js**.
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FElXprogramming%2Fpern-forge)
+
 ---
 
 ## 📚 Curriculum & Learning Guide
@@ -131,6 +133,13 @@ cp ../.env.example .env
 # Update .env with your PostgreSQL credentials
 node server.js
 ```
+
+### 3. ☁️ Deploy to Vercel
+You can deploy this application directly to Vercel in seconds:
+1. Click the **[Deploy with Vercel](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FElXprogramming%2Fpern-forge)** button or visit [vercel.com/new](https://vercel.com/new).
+2. Connect your GitHub account and import `ElXprogramming/pern-forge`.
+3. *(Optional)* Add `DATABASE_URL` in the **Environment Variables** section if you have a hosted PostgreSQL database (e.g. from Neon, Supabase, or Vercel Postgres).
+4. Click **Deploy**! Vercel serves the static learning webapp at `/` and serverless API functions at `/api/*`.
 
 ---
 

@@ -1,0 +1,27 @@
+{
+  "name": "pern-forge",
+  "version": "1.0.0",
+  "description": "Interactive PERN Stack Learning Platform & Starter Template",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "keywords": [
+    "pern",
+    "postgresql",
+    "express",
+    "react",
+    "nodejs",
+    "learning",
+    "vercel"
+  ],
+  "author": "Eldion Ryan Godius",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  }
+}
