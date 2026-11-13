@@ -3,17 +3,24 @@
   "version": "1.0.0",
   "description": "Interactive PERN Stack Learning Platform & Starter Template",
   "main": "server/server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElXprogramming/pern-forge.git"
+  },
   "scripts": {
     "start": "node server/server.js",
     "dev": "node --watch server/server.js"
   },
   "keywords": [
     "pern",
+    "pern-stack",
     "postgresql",
     "express",
     "react",
     "nodejs",
-    "learning",
+    "fullstack",
+    "learning-platform",
+    "boilerplate",
     "vercel"
   ],
   "author": "Eldion Ryan Godius",

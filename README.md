@@ -2,7 +2,10 @@
 
 > An interactive educational platform and starter boilerplate for mastering the **PERN stack**: **PostgreSQL**, **Express.js**, **React**, and **Node.js**.
 
+[![Latest Release](https://img.shields.io/github/v/release/ElXprogramming/pern-forge?color=blue)](https://github.com/ElXprogramming/pern-forge/releases)
+[![CI](https://github.com/ElXprogramming/pern-forge/actions/workflows/ci.yml/badge.svg)](https://github.com/ElXprogramming/pern-forge/actions/workflows/ci.yml)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FElXprogramming%2Fpern-forge)
+[![GitHub Stars](https://img.shields.io/github/stars/ElXprogramming/pern-forge?style=social)](https://github.com/ElXprogramming/pern-forge/stargazers)
 
 ---
 
@@ -140,6 +143,12 @@ You can deploy this application directly to Vercel in seconds:
 2. Connect your GitHub account and import `ElXprogramming/pern-forge`.
 3. *(Optional)* Add `DATABASE_URL` in the **Environment Variables** section if you have a hosted PostgreSQL database (e.g. from Neon, Supabase, or Vercel Postgres).
 4. Click **Deploy**! Vercel serves the static learning webapp at `/` and serverless API functions at `/api/*`.
+
+---
+
+## 🤝 Contributing & Security
+
+Contributions, curriculum enhancements, and bug reports are welcome! Please review [CONTRIBUTING.md](CONTRIBUTING.md), our [Code of Conduct](CODE_OF_CONDUCT.md), and [SECURITY.md](SECURITY.md).
 
 ---
 
